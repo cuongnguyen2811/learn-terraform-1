@@ -11,12 +11,12 @@ terraform validate
 
 # In case you don't have them set anymore don't forget to run the export commands
 # For Linux and MacOS
-export TF_VAR_aws_access_key=YOUR_ACCESS_KEY
-export TF_VAR_aws_secret_key=YOUR_SECRET_KEY
+export TF_VAR_aws_access_key=AKIAU63R2HRNTJXLI5K6
+export TF_VAR_aws_secret_key=fDwrXKaeKu4eIUWj9y35s+nYHJYP67gIOwsoHqZd
 
 # For PowerShell
-$env:TF_VAR_aws_access_key="YOUR_ACCESS_KEY"
-$env:TF_VAR_aws_secret_key="YOUR_SECRET_KEY"
+$env:TF_VAR_aws_access_key="AKIAU63R2HRNTJXLI5K6"
+$env:TF_VAR_aws_secret_key="fDwrXKaeKu4eIUWj9y35s+nYHJYP67gIOwsoHqZd"
 
 terraform plan -out m5.tfplan
 terraform apply m5.tfplan
